@@ -212,8 +212,7 @@ header .container {
 }
 
 .screenshot {
-  width: 123%;
-  transform: translate(15%, 25px);
+  width: 100%;
 }
 
 .toggle-btn {
@@ -357,11 +356,6 @@ header .container {
   .text {
     font-size: 0.95rem;
     margin: 1.4rem 0 1.5rem;
-  }
-
-  .person {
-    width: 100%;
-    transform: none;
   }
 
   .logo h3 {
