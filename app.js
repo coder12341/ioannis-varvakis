@@ -37,7 +37,7 @@ const main = document.querySelector("main");
 declare();
 setCookie("theme", false, 30);
 let val=getCookie("theme");
-alert("value= "+val)
+alert("value= "+val);
 
 let dark = true;
 
