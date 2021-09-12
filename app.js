@@ -39,7 +39,7 @@ setCookie("theme", false, 30);
 let val=getCookie("theme");
 alert("value= "+val);
 
-let dark = true;
+let dark = false;
 
 function toggleAnimation() {
   // Clone the wrapper
