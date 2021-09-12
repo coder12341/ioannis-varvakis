@@ -36,8 +36,10 @@ const main = document.querySelector("main");
 
 declare();
 setCookie("theme", false, 30);
+var val=getCookie("theme");
+alert("value= "+val)
 
-let dark = getCookie("theme");
+let dark = true;
 
 function toggleAnimation() {
   // Clone the wrapper
