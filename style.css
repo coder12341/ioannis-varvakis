@@ -88,7 +88,7 @@ header .container {
 }
 
 .logo_play {
-  display: flex;
+  
   align-items: left;
   cursor: pointer;
   margin-top: 0.1rem;
