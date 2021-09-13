@@ -1,12 +1,33 @@
 <!DOCTYPE html>
 <link rel="shortcut icon" href="logo.ico" type="image/x-icon" />
+<link rel="stylesheet" href="style.css" />
 <title>Ιωάννης Βαρβάκης 2021</title>
 <html>
 <body>
-  <h4>Πατήστε την πράσινη σημαία για έναρξη</h4>
-<iframe id=play src="https://scratch.mit.edu/projects/485145118/embed" allowtransparency="false" frameborder="0" width=1920 height=1080 scrolling allowfullscreen></iframe>
-  
+  <center><iframe id=play src="https://scratch.mit.edu/projects/485145118/embed" allowtransparency="false" frameborder="0" width=1920 height=1080 scrolling allowfullscreen></iframe></center>
+    
 <script>
+function getCookie(cname) {
+let name = cname + "=";
+let decodedCookie = decodeURIComponent(document.cookie);
+let ca = decodedCookie.split(';');
+for(let i = 0; i <ca.length; i++) {
+  let c = ca[i];
+  while (c.charAt(0) == ' ') {
+    c = c.substring(1);
+  }
+  if (c.indexOf(name) == 0) {
+    return c.substring(name.length, c.length);
+  }
+}
+return "";
+}
+let val = getCookie("theme");
+if (val=="true") {
+  document.body.style.backgroundColor = "black";
+} else {
+  document.body.style.backgroundColor = "white";
+}
 /* Get the element you want displayed in fullscreen */ 
 var elem = document.getElementById("play");
 
