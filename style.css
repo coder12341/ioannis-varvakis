@@ -87,6 +87,18 @@ header .container {
   cursor: pointer;
 }
 
+.logo_play {
+  display: flex;
+  align-items: left;
+  cursor: pointer;
+  margin-top: 0.1rem;
+}
+
+.logo_play img {
+  width: 60px;
+  margin-right: 0.6rem;
+}
+
 .logo img {
   width: 40px;
   margin-right: 0.6rem;
